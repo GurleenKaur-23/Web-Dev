@@ -1,0 +1,162 @@
+/* General body styling */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: lightcoral;
+    color: white;
+    padding: 2vh 0; /* Using vh for vertical spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow */
+    position: sticky; /* Sticks to the top */
+    top: 0;
+    z-index: 10;
+  }
+  
+  header h1 {
+    font-size: 2rem; /* Using rem for scalable size */
+    text-decoration: underline;
+    margin: 0;
+  }
+  
+  /* Main content */
+  main {
+    margin: 2vh auto;
+    width: 80vw; /* Using vw for dynamic width */
+    padding: 2rem; /* Using rem for spacing */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Headings */
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #4caf50;
+  }
+  
+  h1, h2, p {
+    margin: 1rem 0;
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 1rem; /* Using rem */
+    text-align: justify;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for images */
+  }
+  
+  /* Links */
+  a {
+    color: #d235bd;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2vh 0;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 1em; /* Using em for padding */
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #4db2f5;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Forms */
+  form {
+    text-align: left;
+    margin-top: 2rem;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  button {
+    width: 100%;
+    padding: 0.8em; /* Using em for padding */
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: brown;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Lists */
+  ol, ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Videos and iframes */
+  iframe, video {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2vh;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Top shadow */
+  }
+  
